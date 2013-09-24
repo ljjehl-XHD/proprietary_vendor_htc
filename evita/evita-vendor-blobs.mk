@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_preview.so:/system/lib/libchromatix_s5k3h2yx_preview.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k3h2yx_zsl.so:/system/lib/libchromatix_s5k3h2yx_zsl.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_default_video.so:/system/lib/libchromatix_s5k6a1gx_default_video.so \
+        vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_hdr.so:/system/lib/libchromatix_s5k6a1gx_hdr.so \
+        vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_hfr.so:/system/lib/libchromatix_s5k6a1gx_hfr.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_preview.so:/system/lib/libchromatix_s5k6a1gx_preview.so \
         vendor/htc/evita/proprietary/lib/libchromatix_s5k6a1gx_zsl.so:/system/lib/libchromatix_s5k6a1gx_zsl.so \
         vendor/htc/evita/proprietary/lib/hw/sensors.default.so:/system/lib/hw/sensors.default.so \
@@ -30,6 +32,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/libmpl.so:/system/lib/libmpl.so \
         vendor/htc/evita/proprietary/vendor/firmware/libpn544_fw.so:/system/vendor/firmware/libpn544_fw.so \
         vendor/htc/evita/proprietary/lib/hw/nfc.default.so:/system/lib/hw/nfc.default.so \
+        vendor/htc/evita/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/evita/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/evita/proprietary/lib/libdiag.so:/system/lib/libdiag.so \
         vendor/htc/evita/proprietary/lib/libdsi_netctrl.so:/system/lib/libdsi_netctrl.so \
@@ -43,5 +46,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/evita/proprietary/lib/libqmi_encdec.so:/system/lib/libqmi_encdec.so \
         vendor/htc/evita/proprietary/lib/libqmiservices.so:/system/lib/libqmiservices.so \
         vendor/htc/evita/proprietary/lib/libqmi.so:/system/lib/libqmi.so \
+        vendor/htc/evita/proprietary/lib/libnetmgr.so:/system/lib/libnetmgr.so \
         vendor/htc/evita/proprietary/lib/libril-qc-qmi-1.so:/system/lib/libril-qc-qmi-1.so \
         vendor/htc/evita/proprietary/lib/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so
